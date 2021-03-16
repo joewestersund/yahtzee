@@ -7,6 +7,8 @@ def dice_format(input_list):
     return "".join(str(i) for i in input_list)
 
 def main():
+    #todo: accepted 56666 as 3 of a kind instead of 4 of a kind when both were open
+
     debug = False
     modes = ["optimize position_costs", "test GUI", "play text mode"]
     mode = 1
